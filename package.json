@@ -1,0 +1,29 @@
+{
+  "name": "hiveos-datacollector",
+  "version": "1.0.0",
+  "description": "Collect HiveOS statistics and store in a DB",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entmike/hiveos-datacollector.git"
+  },
+  "keywords": [
+    "HiveOS"
+  ],
+  "author": "Mike Howles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entmike/hiveos-datacollector/issues"
+  },
+  "homepage": "https://github.com/entmike/hiveos-datacollector#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1"
+  }
+}
